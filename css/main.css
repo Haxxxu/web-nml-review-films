@@ -1,0 +1,26 @@
+
+
+#nav-bar{
+    background-image: linear-gradient(to right,  #84fab0, #8fd3f4);
+}
+
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    background-color: pink;
+}
+
+#header {
+    padding: 0;
+}
+
+#main {
+    background-color: white;
+}
