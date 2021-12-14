@@ -8,595 +8,673 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom_multislider.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header class="container" id="header">
-        <nav id="nav-bar" class="navbar navbar-expand-lg  navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="images/Logo.png" alt="" width="80px">
-                <h6 style="text-align: center;">NML Review</h6>
+    <div id="wrapper">
+
+        <header class="container" id="header">
+    
+            <!-- Navigation -->
+            <nav id="nav-bar" class="navbar navbar-expand-lg  navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="" width="80px">
+                    <h6 style="text-align: center;">NML Review</h6>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                          <h5>TRANG CHỦ</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <h5>REVIEW PHIM</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 style="display: inline;">THỂ LOẠI</h5>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Phim Hành Động</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Tình Cảm</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Kinh Dị</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Tâm Lý</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 style="display: inline;">TIN TỨC ĐIỆN ẢNH</h5>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Tin Tức</a></li>
+                          <li><a class="dropdown-item" href="#">Diễn Viên</a></li>
+                          <li><a class="dropdown-item" href="#">Đạo Diễn</a></li>
+                          <li><a class="dropdown-item" href="#">Lịch Chiếu Phim</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <h5>DIỄN ĐÀN</h5>
+                        </a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Tìm Kiếm</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <!-- Navigation -->
+    
+        </header>
+        <main class="container" id="main">
+    
+            <!-- Multi Slider -->
+            <div class="container">
+              <div id="multiSlider">
+                <div class="MS-content">
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                    <div class="multi-slider-item">
+                      <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
+                      <p>DUNE</p>
+                      <p>22/10/2021</p>
+                    </div>
+                </div>
+                <div class="MS-controls">
+                    <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                    <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </div>
+            <!-- Multi Slider -->
+    
+    
+            <!-- Phim Mới -->
+            <div class="container">
+              <a class="row title-content" href="#">
+                <h3>PHIM MỚI <i class="fas fa-angle-double-right"></i></h3>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                      <h5>TRANG CHỦ</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <h5>REVIEW PHIM</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <h5 style="display: inline;">THỂ LOẠI</h5>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Phim Hành Động</a></li>
-                      <li><a class="dropdown-item" href="#">Phim Tình Cảm</a></li>
-                      <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
-                      <li><a class="dropdown-item" href="#">Phim Kinh Dị</a></li>
-                      <li><a class="dropdown-item" href="#">Phim Tâm Lý</a></li>
-                      <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <h5 style="display: inline;">TIN TỨC ĐIỆN ẢNH</h5>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Tin Tức</a></li>
-                      <li><a class="dropdown-item" href="#">Diễn Viên</a></li>
-                      <li><a class="dropdown-item" href="#">Đạo Diễn</a></li>
-                      <li><a class="dropdown-item" href="#">Lịch Chiếu Phim</a></li>
-                      <!-- <li><hr class="dropdown-divider"></li> -->
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <h5>DIỄN ĐÀN</h5>
-                    </a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Tìm Kiếm</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main class="container" id="main">
-
-        <!-- Multi Slider -->
-        <div class="container">
-          <div id="multiSlider">
-            <div class="MS-content">
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-                <div class="multi-slider-item">
-                  <img src="images/film-trailer-images/dune-movie-trailer--pictures.jpg" alt="" width="100%" height="auto">
-                  <p>DUNE</p>
-                  <p>22/10/2021</p>
-                </div>
-            </div>
-            <div class="MS-controls">
-                <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-                <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-            </div>
-          </div>
-        </div>
-        <!-- Multi Slider -->
-
-
-        <!-- Phim Mới -->
-        <div class="container">
-          <a class="row title-content" href="#">
-            <h3>PHIM MỚI <i class="fas fa-angle-double-right"></i></h3>
-          </a>
-        
-          <div class="row">
-            <div class="col-sm-6">
-              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>RON GONE WRONG</h5>
-                      <p>
-                        Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
-                         trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
-                          không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
-                           ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>RON GONE WRONG</h5>
-                      <p>
-                        Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
-                         trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
-                          không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
-                           ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" title="" data-bs-toggle="tooltip" data-bs-placement="top">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>RON GONE WRONG</h5>
-                      <p>
-                        Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
-                         trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
-                          không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
-                           ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="row">
-                <div class="col-6">
-                  <figure class="figure">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
-                  </figure>
-                </div>
-                <div class="col-6">
-                  <figure class="figure">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
-                  </figure>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <figure class="figure">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light"  data-bs-toggle="tooltip" data-bs-placement="top">
-                  </figure>
-                </div>
-                <div class="col-6">
-                  <figure class="figure">
-                    <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Phim Mới -->
-
-
-        <!-- Review Phim -->
-        <div class="container">
-          <a class="row title-content" href="#">
-            <h3>REVIEW PHIM <i class="fas fa-angle-double-right"></i></h3>
-          </a>
-
-          <div class="row">
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/ARCANE-LMTH-2021-poster.jpg" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">ARCANE</h3>
-                    <p class="item-time">6 Nov 2021</p>
-                    <p class="item-desc">Arcane: Animated Series (Liên Minh Huyền Thoại) là phim hoạt hình thuộc thể loại phiêu lưu, hành động 
-                      của Riot. Phim kể về mọi huyền thoại đều có khởi đầu và lần này nhân vật được kể đầu tiên chính là Vi và Jinx, đến từ thế
-                       giới Piltover và Zaun.
-                      </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/ARCANE-LMTH-2021-poster.jpg" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">ARCANE</h3>
-                    <p class="item-time">6 Nov 2021</p>
-                    <p class="item-desc">Arcane: Animated Series (Liên Minh Huyền Thoại) là phim hoạt hình thuộc thể loại phiêu lưu, hành động 
-                      của Riot. Phim kể về mọi huyền thoại đều có khởi đầu và lần này nhân vật được kể đầu tiên chính là Vi và Jinx, đến từ thế 
-                      giới Piltover và Zaun.
-                    </p>  
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/ARCANE-LMTH-2021-poster.jpg" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">ARCANE</h3>
-                    <p class="item-time">6 Nov 2021</p>
-                    <p class="item-desc">Arcane: Animated Series (Liên Minh Huyền Thoại) là phim hoạt hình thuộc thể loại phiêu lưu, hành động
-                       của Riot. Phim kể về mọi huyền thoại đều có khởi đầu và lần này nhân vật được kể đầu tiên chính là Vi và Jinx, đến từ thế
-                        giới Piltover và Zaun.
-                    </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/squid-game-poster.png" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">SQUID GAME</h3>
-                    <p class="item-time">17 Sep 2021</p>
-                    <p class="item-desc">
-                      Nội dung Squid Game xoay quanh những trò chơi tử thần dựa theo trò chơi quen thuộc của trẻ em Hàn Quốc ngày xưa, được tổ 
-                      chức tại địa điểm bí mật bởi một tổ chức bí ẩn ở Hàn Quốc gồm 456 người tham gia, là những người đang chìm trong nợ nần, 
-                      gặp khó khăn trong tài chính. Người chiến thắng vượt qua 6 vòng chơi sẽ nhận được phần thưởng 45.6 tỷ won. Đổi lại kẻ thua
-                       cuộc sẽ phải trả giá bằng chính mạng sống của mình.
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/squid-game-poster.png" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">SQUID GAME</h3>
-                    <p class="item-time">17 Sep 2021</p>
-                    <p class="item-desc">
-                      Nội dung Squid Game xoay quanh những trò chơi tử thần dựa theo trò chơi quen thuộc của trẻ em Hàn Quốc ngày xưa, được tổ 
-                      chức tại địa điểm bí mật bởi một tổ chức bí ẩn ở Hàn Quốc gồm 456 người tham gia, là những người đang chìm trong nợ nần, 
-                      gặp khó khăn trong tài chính. Người chiến thắng vượt qua 6 vòng chơi sẽ nhận được phần thưởng 45.6 tỷ won. Đổi lại kẻ thua
-                       cuộc sẽ phải trả giá bằng chính mạng sống của mình.
-                    </p> 
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="item">
-                <img src="images/film-trailer-images/squid-game-poster.png" alt="" class="item-img" width="100%">
-                <div class="item-body">
-                    <h3 class="item-heading">SQUID GAME</h3>
-                    <p class="item-time">17 Sep 2021</p>
-                    <p class="item-desc">
-                      Nội dungi tham gia, là những người đang chìm trong nợ nần, 
-                      gặp khó khăn trong tài chính. Người chiến thắng vượt qua 6 vòng chơi sẽ nhận được phần thưởng 45.6 tỷ won. Đổi lại kẻ thua
-                       cuộc sẽ phải trả giá bằng chính mạng sống của mình.
-                    </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Review Phim -->
-
-
-        <!-- Tin tức điện ảnh -->
-        <div class="container">
-
-          <a class="row title-content" href="#">
-            <h3>TIN TỨC ĐIỆN ẢNH <i class="fas fa-angle-double-right"></i></h3>
-          </a>
-
-          <div class="row">
             
-            <div class="col-sm col-xl-8">
-
               <div class="row">
-                <div class="col-sm">
-                  <div class="item">
-                    <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
-                    <div class="item-body">
-                        <h3 class="item-heading">HOA HẬU</h3>
-                        <p class="item-time">17 Sep 2021</p>
-                        <p class="item-desc">
-                          Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
-                        </p>
-                        
+                <div class="col-sm-6">
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>RON GONE WRONG</h5>
+                          <p>
+                            Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
+                            trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
+                              không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
+                              ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>RON GONE WRONG</h5>
+                          <p>
+                            Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
+                            trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
+                              không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
+                              ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="d-block w-100 rounded border border-light" title="" data-bs-toggle="tooltip" data-bs-placement="top">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>RON GONE WRONG</h5>
+                          <p>
+                            Lấy bối cảnh ở một thế giới nơi những chú robot có thể đi đứng, nói chuyện, kết nối kỹ thuật số và đã trở thành bạn thân của
+                            trẻ em, Ron - Chú Robot Khác Biệt kể về câu chuyện của một cậu bé 11 tuổi nhận thấy rằng người bạn robot của mình hoạt động
+                              không như bình thường. Cậu cố gắng hướng dẫn chú robot nhưng tất cả dường như trở thành một cuộc trải nghiệm đầy hài hước,
+                              ấm áp và đầy ý nghĩa về tình bạn trong thế giới chỉ có thuật toán và mạng xã hội.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="row">
+                    <div class="col-6">
+                      <figure class="figure">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
+                      </figure>
+                    </div>
+                    <div class="col-6">
+                      <figure class="figure">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <figure class="figure">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light"  data-bs-toggle="tooltip" data-bs-placement="top">
+                      </figure>
+                    </div>
+                    <div class="col-6">
+                      <figure class="figure">
+                        <img src="images/film-trailer-images/ron-gone-wrong-movie-trailer.jpg" class="figure-img img-fluid rounded border border-light" data-bs-toggle="tooltip" data-bs-placement="top">
+                      </figure>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <!-- Phim Mới -->
+    
+    
+            <!-- Review Phim -->
+            <div class="container">
+              <a class="row title-content" href="#">
+                <h3>REVIEW PHIM <i class="fas fa-angle-double-right"></i></h3>
+              </a>
+    
+              <div class="row">
                 <div class="col-sm">
-                  <div class="item">
-                    <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
-                    <div class="item-body">
-                        <h3 class="item-heading">HOA HẬU</h3>
-                        <p class="item-time">17 Sep 2021</p>
-                        <p class="item-desc">
-                          Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
-                        </p>
-                    </div>
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <div class="test">
+                            <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                          </div>
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Money-Heist-Season-5.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Money Heist season 5 phần 2: Kết hơi ảo nhưng cảm xúc</h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="images/film-main-images/Tick-Tick-Boom.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Tick Tick Boom: Đắm chìm vào vở nhạc kịch cuộc đời</h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <div class="test">
+                            <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                          </div>
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Money-Heist-Season-5.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Money Heist season 5 phần 2: Kết hơi ảo nhưng cảm xúc</h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="images/film-main-images/Tick-Tick-Boom.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Tick Tick Boom: Đắm chìm vào vở nhạc kịch cuộc đời</h3>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-sm">
-                  <div class="item">
-                    <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
-                    <div class="item-body">
-                        <h3 class="item-heading">HOA HẬU</h3>
-                        <p class="item-time">17 Sep 2021</p>
-                        <p class="item-desc">
-                          Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
-                        </p>
-                    </div>
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <div class="test">
+                            <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                          </div>
+                          
+                      </div>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm">
-                  <div class="item">
-                    <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
-                    <div class="item-body">
-                        <h3 class="item-heading">HOA HẬU</h3>
-                        <p class="item-time">17 Sep 2021</p>
-                        <p class="item-desc">
-                          Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
-                        </p>
-                    </div>
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+
+                          <img src="images/film-main-images/Money-Heist-Season-5.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Money Heist season 5 phần 2: Kết hơi ảo nhưng cảm xúc</h3>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link" href="#">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="images/film-main-images/Tick-Tick-Boom.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          <h3>Review phim Tick Tick Boom: Đắm chìm vào vở nhạc kịch cuộc đời</h3>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
               
             </div>
-  
-            <!-- Tin tức không hiện ảnh -->
-            <div class="col col-xl-4">
-              <ul>
-                <li>
-                  <h6>TIN TỨC</h6>
-                  <p>Tổng hợp các phim Chiến Tranh Thế Giới thứ 2 hay nhất mọi thời đại</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>TIN TỨC</h6>
-                  <p>10 mỹ nhân từng đăng quang Miss Grand International</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>DIỄN VIÊN</h6>
-                  <p>George Clooney nghe lời vợ từ chối cát-xê 35 triệu USD</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>TIN TỨC</h6>
-                  <p>Lisa nhóm Blackpink khỏi Covid-19</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>ĐẠO DIỄN</h6>
-                  <p>Đạo diễn Shin Jung Won qua đời</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>DIỄN VIÊN</h6>
-                  <p>10 mỹ nhân từng đăng quang Miss Grand International</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>DIỄN VIÊN</h6>
-                  <p>Tổng hợp các phim Chiến Tranh Thế Giới thứ 2 hay nhất mọi thời đại</p>
-                  <hr>
-                </li>
-                <li>
-                  <h6>TIN TỨC</h6>
-                  <p>Andrea Aguilera - nữ sinh y khoa thành á hậu Miss Grand</p>
-                  <hr>
-                </li>
-              </ul>  
+            <!-- Review Phim -->
+    
+    
+            <!-- Tin tức điện ảnh -->
+            <div class="container">
+    
+              <!-- Tin tức có ảnh -->
+              <a class="row title-content" href="#">
+                <h3>TIN TỨC ĐIỆN ẢNH <i class="fas fa-angle-double-right"></i></h3>
+              </a>
+    
+              <div class="row">
+    
+                <!-- Tin tức có ảnh -->
+                <div class="col-sm col-xl-8">
+    
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="item">
+                        <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
+                        <div class="item-body">
+                            <h3 class="item-heading">HOA HẬU</h3>
+                            <p class="item-time">17 Sep 2021</p>
+                            <p class="item-desc">
+                              Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
+                            </p>
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="item">
+                        <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
+                        <div class="item-body">
+                            <h3 class="item-heading">HOA HẬU</h3>
+                            <p class="item-time">17 Sep 2021</p>
+                            <p class="item-desc">
+                              Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="item">
+                        <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
+                        <div class="item-body">
+                            <h3 class="item-heading">HOA HẬU</h3>
+                            <p class="item-time">17 Sep 2021</p>
+                            <p class="item-desc">
+                              Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="item">
+                        <img src="images/tin-tuc-images/tintuc-nguyenthucthuytien.jpg" alt="" class="item-img" width="100%">
+                        <div class="item-body">
+                            <h3 class="item-heading">HOA HẬU</h3>
+                            <p class="item-time">17 Sep 2021</p>
+                            <p class="item-desc">
+                              Thùy Tiên: 'Tôi từng làm 18 tiếng mỗi ngày để có tiền đi học'
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+                <!-- Tin tức có ảnh -->
+      
+                <!-- Tin tức không hiện ảnh -->
+                <div class="col col-xl-4">
+                  <ul>
+                    <li>
+                      <h6>TIN TỨC</h6>
+                      <p>Tổng hợp các phim Chiến Tranh Thế Giới thứ 2 hay nhất mọi thời đại</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>TIN TỨC</h6>
+                      <p>10 mỹ nhân từng đăng quang Miss Grand International</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>DIỄN VIÊN</h6>
+                      <p>George Clooney nghe lời vợ từ chối cát-xê 35 triệu USD</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>TIN TỨC</h6>
+                      <p>Lisa nhóm Blackpink khỏi Covid-19</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>ĐẠO DIỄN</h6>
+                      <p>Đạo diễn Shin Jung Won qua đời</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>DIỄN VIÊN</h6>
+                      <p>10 mỹ nhân từng đăng quang Miss Grand International</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>DIỄN VIÊN</h6>
+                      <p>Tổng hợp các phim Chiến Tranh Thế Giới thứ 2 hay nhất mọi thời đại</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>TIN TỨC</h6>
+                      <p>Andrea Aguilera - nữ sinh y khoa thành á hậu Miss Grand</p>
+                      <hr>
+                    </li>
+                    <li>
+                      <h6>TIN TỨC</h6>
+                      <p>Andrea Aguilera - nữ sinh y khoa thành á hậu Miss Grand</p>
+                      <hr>
+                    </li>
+                  </ul>  
+                </div>
+                <!-- Tin tức không hiện ảnh -->
+    
+              </div>
+    
             </div>
-  
-          </div>
-        </div>
-        <!-- Tin tức điện ảnh -->
-
-
-        <!--  -->
-        <div class="container">
-          <a class="row title-content" href="#">
-            <h3>KHÔNG BIẾT ĐẶT TÊN GÌ <i class="fas fa-angle-double-right"></i></h3>
-          </a>
-          <div class="col-sm col-xl-9">
-            
-          </div>
-          <div class="col-sm col-xl-3">
-            
-          </div>
-        </div>
-        <!--  -->
-
-    </main>
-    <!-- Footer -->
-<footer class="bg-dark text-center text-white container">
-    <!-- Grid container -->
-    <div class="container p-4">
-
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Đăng ký để nhận tin tức mới</strong>
-              </p>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example21" class="form-control" placeholder="Nhập email"/>
-                <label class="form-label" for="form5Example21">Email address</label>
+            <!-- Tin tức điện ảnh -->
+    
+    
+            <!--  -->
+            <div class="container">
+              <a class="row title-content" href="#">
+                <h3>KHÔNG BIẾT ĐẶT TÊN GÌ <i class="fas fa-angle-double-right"></i></h3>
+              </a>
+              <div class="col-sm col-xl-9">
+                
+              </div>
+              <div class="col-sm col-xl-3">
+                
               </div>
             </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Form -->
-  
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-          Em ăn cơm chưa?
-        </p>
-      </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
-            <h5 class="text-uppercase">Giới Thiệu</h5>
-  
+            <!--  -->
+    
+        </main>
+        <!-- Footer -->
+    <footer class="bg-dark text-center text-white container">
+        <!-- Grid container -->
+        <div class="container p-4">
+    
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Đăng ký để nhận tin tức mới</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" placeholder="Nhập email"/>
+                    <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+      
+          <!-- Section: Text -->
+          <section class="mb-4">
             <p>
-                NML review là một website chủ yếu review phim.
+              Em ăn cơm chưa?
             </p>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
-            <h5 class="text-uppercase">Liên Hệ</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <img src="images/Logo.png" alt="" width="100px">
-              </li>
-              <li>
-                <p class="text-white">&phone;Hotline: 9999 999 999</p>
-              </li>
-              <li>
-                <p class="text-white">Email: nmlreviewphim@gmail.com</p>
-              </li>
-              <li>
-                <p class="text-white">Địa chỉ: Đại học Cần Thơ, Việt Nam.</p>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
+          </section>
+          <!-- Section: Text -->
+      
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
+                <h5 class="text-uppercase">Giới Thiệu</h5>
+      
+                <p>
+                    NML review là một website chủ yếu review phim.
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
+                <h5 class="text-uppercase">Liên Hệ</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <img src="images/Logo.png" alt="" width="100px">
+                  </li>
+                  <li>
+                    <p class="text-white">&phone;Hotline: 9999 999 999</p>
+                  </li>
+                  <li>
+                    <p class="text-white">Email: nmlreviewphim@gmail.com</p>
+                  </li>
+                  <li>
+                    <p class="text-white">Địa chỉ: Đại học Cần Thơ, Việt Nam.</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+    
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+      
+          
         </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-  
+        <!-- Grid container -->
       
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright
+          
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright
-      
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
 
   <!-- Include Multislider -->
   <script src="js/multislider.min.js"></script>
