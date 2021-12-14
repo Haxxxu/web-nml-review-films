@@ -1,0 +1,12 @@
+#content {
+    color:aliceblue;
+}
+
+#content article {
+    position: relative;
+}
+
+.content-img img {
+    max-width: 100%;
+    
+}

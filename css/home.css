@@ -22,19 +22,18 @@
 
 .navbar-brand h6 {
     text-align: center;
-    color: #ABB7C4;
+    color: #abb7c4;
 }
-
 
 
  /* this is a black icon with 50% opacity */
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ABB7C4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(171, 183, 196)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 }
  /* this is a white icon with 50% opacity */
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ABB7C4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(171, 183, 196)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 }
 
@@ -44,6 +43,7 @@
 
 .nav-item .dropdown-menu a:hover{
     background-color: gray;
+    
 }
 
 #wrapper {
@@ -66,7 +66,9 @@
     margin-top: 50px;
 }
 
-
+.title-content:hover {
+    color: #DCF836;
+}
 
 .container {
     padding: 10px 0;
@@ -152,7 +154,7 @@
 
 
 .news-list {
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: #020D18;
     list-style-type: none;
     padding: 0;
 }
@@ -161,11 +163,11 @@
 
 .news-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .news-link:hover {
-    color: black;
+    color: white;
 }
 
 .box-news {
@@ -175,6 +177,17 @@
 }
 
 .box-news:hover {
-    transform: translateX(10%);
-    width: 90%;
+    animation-name: box-news-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box-news-effect {
+    from {
+
+    }
+    to {
+        transform: translateX(10%);
+        width: 90%;
+    }
 }
