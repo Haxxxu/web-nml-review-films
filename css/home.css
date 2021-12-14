@@ -7,7 +7,7 @@
 }
 
 .nav-link:hover{
-    background-color: slategray;
+    background-color: #020D18;
     border-radius: 5px;
 }
 
@@ -42,8 +42,8 @@
 }
 
 #wrapper {
-    background-color:rgb(76, 82, 88) ;
-    /* background-color:slategrey ; */
+    
+    background-color: #020D18;
     
 }
 
@@ -147,7 +147,7 @@
 
 
 .news-list {
-    background-color: aqua;
+    background-color: rgba(200, 200, 200, 0.4);
     list-style-type: none;
     padding: 0;
 }
@@ -164,7 +164,7 @@
 }
 
 .box-news {
-    background-color: aqua;
+    
     margin: 3px 0px; 
     
 }
