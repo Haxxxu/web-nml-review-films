@@ -33,6 +33,14 @@
 
 }
 
+.nav-item .dropdown-menu{
+    background-color: rgb(245, 222, 178);
+}
+
+.nav-item .dropdown-menu a:hover{
+    background-color: gray;
+}
+
 #wrapper {
     background-color:rgb(76, 82, 88) ;
     /* background-color:slategrey ; */
@@ -100,6 +108,8 @@
 }
 
 
+
+
 .box {
     position: relative;
     margin: 50px 0px;
@@ -133,4 +143,33 @@
 .box-image .image-cover img {
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.news-list {
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.news-link {
+    text-decoration: none;
+    color: black;
+}
+
+.news-link:hover {
+    color: black;
+}
+
+.box-news {
+    background-color: aqua;
+    margin: 3px 0px; 
+    
+}
+
+.box-news:hover {
+    transform: translateX(10%);
+    width: 90%;
 }
