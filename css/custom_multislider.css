@@ -68,16 +68,17 @@ html h2 {
   }
 }
 
-#multiSlider .MS-content .multi-slider-item p {
+#multiSlider .MS-content .multi-slider-item .multi-slider-text {
   font-size: 16px;
   text-align: center;
   line-height: 1;
   vertical-align: middle;
   margin: 0;
   padding: 10px 0;
+  
 }
 
-#multiSlider .MS-controls .multi-slider-item img {
+#multiSlider .MS-controls .multi-slider-item .multi-slider-img {
  border: 2px solid rgb(0, 0, 0);
 }
 
