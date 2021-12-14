@@ -61,12 +61,21 @@
     
 }
 
-@keyframes item-effect {
+@keyframes box-text-effect {
     from {
         
     }
     to {
         transform: translateY(-50%);
+    }
+}
+
+@keyframes box-img-effect {
+    from {
+        
+    }
+    to {
+        transform: scale(1.08);
     }
 }
 
@@ -90,14 +99,18 @@
     color: aliceblue;
     box-shadow: 10 10 0.6;
 
-    animation-name: item-effect;
+    animation-name: box-text-effect;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     
 }
 
 .box-link:hover .image-cover img {
-    transform: scale(1.08);
+
+
+    animation-name: box-img-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .box-image .image-cover img {
