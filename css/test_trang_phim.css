@@ -33,3 +33,7 @@
 .content-negative {
     margin-top: 40px;
 }
+
+#content a {
+    text-decoration: none;
+}
