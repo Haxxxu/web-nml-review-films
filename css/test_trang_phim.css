@@ -8,7 +8,32 @@
     position: relative;
 }
 
+#content-title {
+    margin-top: 50px;
+}
+
+.content-img {
+    margin: 40px 0;
+}
+
 .content-img img {
     width: 100%;
     
+}
+
+#content-trailer {
+    margin: 40px 0;
+}
+
+.content-title,
+.content-film-info,
+.content-description,
+.content-story,
+.content-positive,
+.content-negative {
+    margin-top: 40px;
+}
+
+#content a {
+    text-decoration: none;
 }
