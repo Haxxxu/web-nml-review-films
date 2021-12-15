@@ -190,12 +190,15 @@
     animation-fill-mode: forwards;
 }
 
-.carousel-item .carousel-caption {
+.carousel-item .carousel-caption,
+.figure .figure-text {
     font-size: 0;
+    color: white;
 }
 
 .carousel-item:hover .carousel-caption {
     font-size: 20px;
+    cursor: pointer;
 
     animation-name: carousel-effect;
     animation-duration: 1s;
@@ -203,8 +206,9 @@
     
 }
 
+
 .carousel-item:hover .carousel-img {
-    filter: blur(8px);
+    filter: blur(10px);
 }
 
 @keyframes carousel-effect {
@@ -214,4 +218,8 @@
     to {
         transform: translateY(-30%);
     }
+}
+
+.figure .figure-text {
+    text-align: center;
 }
