@@ -1,5 +1,7 @@
 #content {
-    color:aliceblue;
+    color: #ABB7C4;
+    font-size: 18px;
+    
 }
 
 #content article {
@@ -7,6 +9,6 @@
 }
 
 .content-img img {
-    max-width: 100%;
+    width: 100%;
     
 }
