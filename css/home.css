@@ -2,8 +2,8 @@
 
 #nav-bar{
     /* background-image: linear-gradient(to right,  #2A1B3D, #44318D); */
-    background-color: rgba(0,0,0,0.8);
     
+    background-color: #020D18;
 }
 
 .nav-link:hover{
