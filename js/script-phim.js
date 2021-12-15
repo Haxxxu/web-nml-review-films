@@ -1,7 +1,14 @@
 
 $(document).ready(function () {
 
-    displayFilmPage("Dune");
+    if (window.localStorage.getItem("filmPageID") == undefined) {
+        displayFilmPage("Dune");
+    }
+    else {
+        displayFilmPage(window.localStorage.getItem("filmPageID"));
+    }
+
+    // displayFilmPage(window.localStorage.getItem("filmPageID"));
     
 });
 

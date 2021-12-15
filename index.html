@@ -307,7 +307,7 @@
               <div class="row">
                 <div class="col-sm">
                   <div class="box">
-                    <a class="box-link" href="test_trang_phim.html">
+                    <a class="box-link" onclick="updateFilmPage('Dune');" href="phim.html">
                       <div class="box-image">
                         <div class="image-cover">
                           <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
@@ -802,5 +802,11 @@
   <!-- Initialize element with Multislider -->
   <script src="js/script.js"></script>
 
+  <!-- Phần load động cho trang web -->
+  <script>
+    function updateFilmPage(id) {
+      window.localStorage.setItem("filmPageID", id);
+    }
+  </script>
 </body>
 </html>
