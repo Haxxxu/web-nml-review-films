@@ -14,4 +14,10 @@ $(document).ready(function () {
             $(this).css("color", "#DCF836");
         }
     });
+
+    $(".phim-link").each(function() {
+        $("#" + this.id + " .image-cover > img").attr("src", filmList[this.id].images["img-main"]);
+        $("#" + this.id + " .box-text").append("<h3>" + filmList[this.id].title + "</h3>")
+    })
+    
 });
