@@ -42,8 +42,8 @@
 }
 
 .nav-item .dropdown-menu a:hover{
-    background-color: gray;
-    
+    background-color: #ABB7C4;
+    color: #DCF836;
 }
 
 #wrapper {
@@ -114,7 +114,15 @@
     }
 }
 
+@keyframes box-news-effect {
+    from {
 
+    }
+    to {
+        transform: translateX(10%);
+        width: 90%;
+    }
+}
 
 
 .box {
@@ -182,12 +190,28 @@
     animation-fill-mode: forwards;
 }
 
-@keyframes box-news-effect {
+.carousel-item .carousel-caption {
+    font-size: 0;
+}
+
+.carousel-item:hover .carousel-caption {
+    font-size: 20px;
+
+    animation-name: carousel-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+.carousel-item:hover .carousel-img {
+    filter: blur(8px);
+}
+
+@keyframes carousel-effect {
     from {
 
     }
     to {
-        transform: translateX(10%);
-        width: 90%;
+        transform: translateY(-30%);
     }
 }
