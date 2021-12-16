@@ -1,11 +1,11 @@
 
 $(document).ready(function () {
 
-    if (window.localStorage.getItem("filmPageID") == undefined) {
-        displayFilmPage("Dune");
+    if (window.localStorage.getItem("film-id") == undefined) {
+        displayFilmPage("film-01");
     }
     else {
-        displayFilmPage(window.localStorage.getItem("filmPageID"));
+        displayFilmPage(window.localStorage.getItem("film-id"));
     }
 
     $("#nav-bar a[href='reviewphim.html']").addClass("active");

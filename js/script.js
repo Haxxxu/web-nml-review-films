@@ -8,6 +8,7 @@ $(document).ready(function () {
 
     $(".news-list li").append("<hr/>");
     
+
     $("nav [href]").each(function() {
         if (this.href == window.location.href) {
             $(this).addClass("active");
