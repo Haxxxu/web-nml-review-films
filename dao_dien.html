@@ -12,6 +12,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/film-list.js"></script>
+    <script src="js/dao-dien-list.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -94,13 +95,13 @@
               <div class="row">
                 <div class="col-sm">
                   <div class="box">
-                    <a id="Dune" class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
-                      <div class="box-image">
-                        <div class="image-cover">
+                    <a id = "Álex Pina" class="dao-dien-link" href="dao_dien_info.html" onclick="updateDaoDienPage(this.id);"> 
+                      <div class="dao-dien-image">
+                        <div class="dao-dien-image-cover">
                           <img src="" alt="">
                         </div>
                       </div>
-                      <div class="box-text">
+                      <div class="dao-dien-text">
                           
                       </div>
                     </a>
@@ -109,18 +110,17 @@
 
                 <div class="col-sm">
                   <div class="box">
-                    <a id = "" href="dao_dien_info.html" onclick="updateDaoDienPage(this.id);"> 
-                      <div class="box-image">
-                        <div class="image-cover">
+                    <a id = "Denis Villeneuve" class="dao-dien-link" href="dao_dien_info.html" onclick="updateDaoDienPage(this.id);"> 
+                      <div class="dao-dien-image">
+                        <div class="dao-dien-image-cover">
                           <img src="" alt="">
                         </div>
                       </div>
-                      <div class="box-text">
+                      <div class="dao-dien-text">
                           
                       </div>
                     </a>
                   </div>
-
                 </div>
 
                 <div class="col-sm">
@@ -291,10 +291,12 @@
     function updateFilmPage(id) {
       window.localStorage.setItem("filmPageID", id);
     }
+
   </script>
 
-  <script src="js/script-dao-dien.js"></script>
+  
   <script src="js/script-phim.js"></script>
+  <script src="js/script-dao-dien.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

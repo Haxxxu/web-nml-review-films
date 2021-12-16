@@ -1,0 +1,27 @@
+.box {
+    position: relative;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.dao-dien-link {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+.dao-dien-link .dao-dien-text {
+   
+}
+
+.dao-dien-image .dao-dien-image-cover {
+    width: 100%;
+}
+
+.dao-dien-image .dao-dien-image-cover img {
+    width: 200px;
+}
+
+.title-content {
+    margin-top: 50px;
+}
