@@ -12,8 +12,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/film-list.js"></script>
-    <script src="js/script-phim.js"></script>
-    <script src="js/script.js"></script>
+    
 
 
     <!--Phan layout-->
@@ -139,14 +138,13 @@
                 <div class="row">
                   <div class="col-sm">
                     <div class="box">
-                      <a class="box-link phim-link" id="film-01" onclick="updateFilmPage(this.id)" href="phim.html">
+                      <a id="film-01" class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
                         <div class="box-image">
                           <div class="image-cover">
                             <img src="" alt="">
                           </div>
                         </div>
                         <div class="box-text">
-                            
                             
                         </div>
                       </a>
@@ -420,9 +418,13 @@
 
   <!-- Include Multislider -->
   <script src="js/multislider.min.js"></script>
+  <script>function updateFilmPage(id) {
+    window.localStorage.setItem("filmPageID", id);
+  }</script>
 
   <!-- Initialize element with Multislider -->
   <script src="js/script.js"></script>
+  <script src="js/script-phim.js"></script>
 
 </body>
 </html>
