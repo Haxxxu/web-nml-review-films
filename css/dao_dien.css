@@ -30,6 +30,7 @@
 
 .dao-dien-image .dao-dien-image-cover {
     width: 100%;
+    
 }
 
 .dao-dien-image .dao-dien-image-cover img {
@@ -37,6 +38,7 @@
     width:  200px;
     height: 200px;
     object-fit: cover;
+    border: 1px solid white;
 }
 
 .title-content {
