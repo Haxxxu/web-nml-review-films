@@ -25,4 +25,5 @@ var dienVienList =
         "info":["Oscar Isaac (tên khai sinh: Óscar Isaac Hernández Estrada; sinh ngày 9 tháng 3 năm 1979) là một nam diễn viên, nhạc sĩ người Mỹ gốc Guatemala. Năm 2016, Isaac nằm trong danh sách Time 100 (100 người có nhiều ảnh hưởng nhất trên thế giới) của tờ Time."],
         "actor-of-film":["film-01"]
     }
+    
 }
