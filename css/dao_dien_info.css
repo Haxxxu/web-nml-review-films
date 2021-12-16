@@ -1,0 +1,28 @@
+
+
+#img-dao-dien {
+    text-align:center;
+    padding: 30px 0;
+    
+}
+
+#img-dao-dien img {
+    border-radius: 50%;
+}
+
+#img-dao-dien .text {
+    font-size: 20px;
+    color: #ABB7C4;
+    margin-top: 20px;
+}
+
+
+#info-dao-dien {
+    font-size: 20px;
+    color: #ABB7C4;
+    padding: 20px 0;
+}
+
+.title-info {
+    margin: 50px;
+}
