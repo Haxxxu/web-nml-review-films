@@ -1,6 +1,6 @@
-var filmList = {
-    "Dune": 
-        {
+var filmList = 
+{
+	"film-01": {
              "names":["Dune", "Cồn Cát"],
              "title":"Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu",
              "images":{"img-main":"images/film-main-images/Dune-2021-xu-cat-.jpeg",
@@ -40,7 +40,7 @@ var filmList = {
                 "article-author-info":["Minh Chuyên Đi Copy Đây :v",
                                         "Còn bạn thì sao?"]
         },
-    "Money-Heist-Season-5-2021": 
+    "film-02": 
                 {
                 "names":["Money Heist", "Trộm tiền"],
                 "title":"Review phim Money Heist season 5 phần 2: Kết hơi ảo nhưng cảm xúc",
