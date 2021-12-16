@@ -11,7 +11,21 @@
 }
 
 .dao-dien-link .dao-dien-text {
-   
+   vertical-align: middle;
+}
+
+.dao-dien-link:hover .dao-dien-text {
+    animation-name: dao-dien-text-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    color: #DCF836;
+}
+
+.dao-dien-link:hover .dao-dien-image .dao-dien-image-cover img {
+    animation-name: dao-dien-image-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .dao-dien-image .dao-dien-image-cover {
@@ -19,9 +33,30 @@
 }
 
 .dao-dien-image .dao-dien-image-cover img {
-    width: 200px;
+    /* float: left; */
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .title-content {
     margin-top: 50px;
+}
+
+@keyframes dao-dien-image-effect {
+    from {
+
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes dao-dien-text-effect {
+    from {
+
+    }
+    to {
+        transform: translateY(40%);
+    }
 }
