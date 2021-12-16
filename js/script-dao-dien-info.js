@@ -1,17 +1,18 @@
 $(document).ready(function () {
     
 
-    displayDaoDienInfoPage("dao-dien-01");
+    displayDaoDienInfoPage("dao-dien-02");
 
 });
 
 function displayDaoDienInfoPage(id) {
 
     $("#img-dao-dien > img").attr("src", daoDienList[id].image);
+    $("#img-dao-dien > img").css("width", "70%");
 
     $("#img-dao-dien > .text").append("<h4>" + daoDienList[id].name + "</h4>");
 
-    $("#img-dao-dien > .text").append("<h5>" + daoDienList[id].birthdate + "</h5>");
+    $("#img-dao-dien > .text").append("<h5>Ngày sinh: " + daoDienList[id].birthdate + "</h5>");
 
     for (let i = 0; i < daoDienList[id].info.length; ++i) {
         $("#info-dao-dien").append("<p>" + daoDienList[id].info[i] + "</p>")

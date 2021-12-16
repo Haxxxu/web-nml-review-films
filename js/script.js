@@ -22,3 +22,7 @@ $(document).ready(function () {
     })
     
 });
+
+function updateFilmPage(id) {
+    window.localStorage.setItem("film-id", id);
+}
