@@ -1,6 +1,6 @@
 var daoDienList = 
 {
-    "dao-dien-01":
+    "Denis Villeneuve":
     {
         "name":"Denis Villeneuve",
         "image":"images/dao-dien-images/Denis_Villeneuve_2018.jpg",
@@ -9,7 +9,7 @@ var daoDienList =
                 "Trên thị trường quốc tế, ông nổi tiếng nhờ chỉ đạo những tác phẩm được đánh giá cao về mặt chuyên môn, như hai phim giật gân Lần theo dấu vết (2013) và Ranh giới (2015) cũng như hai bộ phim khoa học viễn tưởng Cuộc đổ bộ bí ẩn (2016) và Tội phạm nhân bản 2049 (2017). Nhờ tác phẩm Cuộc đổ bộ bí ẩn, ông đã giành được một đề cử Oscar cho đạo diễn xuất sắc nhất. Tháng 12 năm 2019, ông còn được Hiệp hội phê bình Hollywood trao giải Nhà làm phim của thập kỷ."],
         "director-of-film":["film-01"]
     }, 
-    "dao-dien-02":
+    "Álex Pina":
     {
         "name":"Álex Pina",
         "image":"images/dao-dien-images/alex_pina.png", 

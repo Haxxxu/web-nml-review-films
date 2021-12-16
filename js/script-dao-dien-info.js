@@ -1,7 +1,11 @@
 $(document).ready(function () {
     
-
-    displayDaoDienInfoPage("dao-dien-02");
+    if (window.localStorage.getItem("dao-dien-id") == undefined) {
+        displayDaoDienInfoPage("Denis Villeneuve");
+    }
+    else {
+        displayDaoDienInfoPage(window.localStorage.getItem("dao-dien-id"));
+    }
 
 });
 
@@ -27,7 +31,7 @@ function displayDaoDienInfoPage(id) {
         }
         
         count++;
-    })
+    });
 
 
 }

@@ -26,10 +26,10 @@ function displayFilmPage (id) {
     
     for (let i = 0; i < filmList[id].info["dao-dien"].length; ++i) {
         if (i == 0) {
-            $("#content-film-info li[class='dao-dien']").append("<a href='#'>" + filmList[id].info["dao-dien"][i] + "</a>");
+            $("#content-film-info li[class='dao-dien']").append("<a href='dao_dien_info.html' onclick='updateDaoDienPage(this.id);' id = '" + filmList[id].info["dao-dien"][i] + "'>" + filmList[id].info["dao-dien"][i] + "</a>");
         }
         else {
-            $("#content-film-info li[class='dao-dien']").append(", <a href='#'>" + filmList[id].info["dao-dien"][i] + "</a>");
+            $("#content-film-info li[class='dao-dien']").append(", <a href='dao_dien_info.html' onclick='updateDaoDienPage(this.id);' id = '" + filmList[id].info["dao-dien"][i] + "'>" + filmList[id].info["dao-dien"][i] + "</a>");
         }
     }
 
@@ -125,4 +125,10 @@ function displayFilmPage (id) {
     for (let i = 0; i < filmList[id]["article-author-info"].length; ++i) {
         $("#content-about-article-author").append("<p><b>" + filmList[id]["article-author-info"][i] + "</b></p>")
     }
+}
+
+
+
+function updateDaoDienPage(id) {
+    window.localStorage.setItem("dao-dien-id", id);
 }
