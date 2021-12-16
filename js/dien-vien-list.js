@@ -52,7 +52,7 @@ var dienVienList =
     "Vanessa Hudgens":
     {
         "name":"Vanessa Hudgens",
-        "image":"images/dien-vien-images/Vanessa Hudgens", 
+        "image":"images/dien-vien-images/Vanessa Hudgens.png", 
         "birthdate":"14/12/1988",
         "info":["Vanessa Anne Hudgens là một nữ diễn viên, ca sĩ người Mỹ. Vanessa Hudgens bắt đầu đóng phim từ lúc bé, cô bắt đầu nổi tiếng trong bộ phim High School Musical và sau đó còn tham gia nhiều phim khác, trong đó phần lớn là các bộ phim truyền hình nhiều tập.Vanessa Hudgens sinh ra tại Salinas, California, Hoa Kỳ. Cha cô, ông Greg Hudgens, là người có gốc gác từ Ireland, Mỹ và Ấn Độ. Mẹ Vanessa Hudgens, bà Gina Guangco, cũng là một người có gốc gác đa dân tộc: Philippines, Trung Quốc, Tây Ban Nha,.... Em gái cô, Stella Hudgens cũng là một diễn viên."],
         "actor-of-film":["film-03"]
