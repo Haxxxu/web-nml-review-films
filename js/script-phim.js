@@ -8,8 +8,8 @@ $(document).ready(function () {
         displayFilmPage(window.localStorage.getItem("film-id"));
     }
 
-    $("#nav-bar a[href='reviewphim.html']").addClass("active");
-    $("#nav-bar a[href='reviewphim.html']").css("color", "#DCF836");
+    // $("#nav-bar a[href='reviewphim.html']").addClass("active");
+    // $("#nav-bar a[href='reviewphim.html']").css("color", "#DCF836");
 
     // displayFilmPage(window.localStorage.getItem("filmPageID"));
     

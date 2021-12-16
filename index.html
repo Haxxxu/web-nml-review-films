@@ -36,7 +36,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="reviewphim.html">
                           <h5>REVIEW PHIM</h5>
                         </a>
                       </li>
@@ -60,7 +60,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Tin Tức</a></li>
                           <li><a class="dropdown-item" href="#">Diễn Viên</a></li>
-                          <li><a class="dropdown-item" href="#">Đạo Diễn</a></li>
+                          <li><a class="dropdown-item" href="dao_dien.html">Đạo Diễn</a></li>
                           <li><a class="dropdown-item" href="#">Lịch Chiếu Phim</a></li>
                           <!-- <li><hr class="dropdown-divider"></li> -->
                         </ul>
@@ -801,5 +801,13 @@
   <!-- Phần load động cho trang web -->
 
   <script src="js/script.js"></script>
+  <script>
+    $("nav [href]").each(function() {
+          if (this.href == window.location.href) {
+              $(this).addClass("active");
+              $(this).css("color", "#DCF836");
+          }
+      });
+  </script>
 </body>
 </html>
