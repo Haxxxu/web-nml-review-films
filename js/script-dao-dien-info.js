@@ -20,13 +20,12 @@ function displayDaoDienInfoPage(id) {
     var count = 0;
 
     $(".phim-link").each(function () {
-        $(this).attr("id", daoDienList[id]["director-of-film"][count]);
-        alert(daoDienList[id]["director-of-film"][count]);
 
-        count++;
-        if (count == daoDienList[id]["director-of-film"].length) {
-            return true;
+        if (count < daoDienList[id]["director-of-film"].length) {
+            $(this).attr("id", daoDienList[id]["director-of-film"][count]);
         }
+        
+        count++;
     })
 
 
