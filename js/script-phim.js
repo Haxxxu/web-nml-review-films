@@ -35,10 +35,10 @@ function displayFilmPage (id) {
 
     for (let i = 0; i < filmList[id].info["dien-vien"].length; ++i) {
         if (i == 0) {
-            $("#content-film-info li[class='dien-vien']").append("<a href='#'>" + filmList[id].info["dien-vien"][i] + "</a>");
+            $("#content-film-info li[class='dien-vien']").append("<a href='dien_vien_info.html' onclick='updateDienVienPage(this.id);' id = '" + filmList[id].info["dien-vien"][i] + "'>" + filmList[id].info["dien-vien"][i] + "</a>");
         }
         else {
-            $("#content-film-info li[class='dien-vien']").append(", <a href='#'>" + filmList[id].info["dien-vien"][i] + "</a>");
+            $("#content-film-info li[class='dien-vien']").append(", <a href='dien_vien_info.html' onclick='updateDienVienPage(this.id);' id = '" + filmList[id].info["dien-vien"][i] + "'>" + filmList[id].info["dien-vien"][i] + "</a>");
         }
     }
 
@@ -131,4 +131,8 @@ function displayFilmPage (id) {
 
 function updateDaoDienPage(id) {
     window.localStorage.setItem("dao-dien-id", id);
+}
+
+function updateDienVienPage(id) {
+    window.localStorage.setItem("dien-vien-id", id);
 }

@@ -1,0 +1,64 @@
+.box {
+    position: relative;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.dien-vien-link {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+.dien-vien-link .dien-vien-text {
+   vertical-align: middle;
+}
+
+.dien-vien-link:hover .dien-vien-text {
+    animation-name: dien-vien-text-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    color: #DCF836;
+}
+
+.dien-vien-link:hover .dien-vien-image .dien-vien-image-cover img {
+    animation-name: dien-vien-image-effect;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.dien-vien-image .dien-vien-image-cover {
+    width: 100%;
+    
+}
+
+.dien-vien-image .dien-vien-image-cover img {
+    /* float: left; */
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+.title-content {
+    margin-top: 50px;
+}
+
+@keyframes dien-vien-image-effect {
+    from {
+
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes dien-vien-text-effect {
+    from {
+
+    }
+    to {
+        transform: translateY(40%);
+    }
+}
