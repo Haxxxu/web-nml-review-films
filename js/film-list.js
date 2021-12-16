@@ -208,41 +208,40 @@ var filmList =
         "film-06": 
                 {
                 "names":["Ron's Gone Wrong"],
-                "title":"Review phim Finch (2021): Chuyến đi cuối đời sẽ như thế nào?",
+                "title":"Ron's Gone Wrong : Rụng tim với tình bạn đáng yêu giữa người và robot",
                 "images":{"img-main":"images/film-main-images/rone-gone-wrong.png",
                        "img-poster":"images/film-poster-images/rone-gone-wrong-poster.jpg",
                        "img-danh-gia":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-min-1536x917.jpg", 
-                       "img-1":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-01-min.jpg", 
-                       "img-2":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-03-min-1536x864.jpeg", 
-                       "img-3":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-04-min-1-1536x864.jpg"
+                       "img-1":"https://koicine.com/wp-content/uploads/2021/09/Rons-Gone-Wrong--1024x525.jpeg", 
+                       "img-2":"https://koicine.com/wp-content/uploads/2021/09/Phim-hoa%CC%A3t-hi%CC%80nh-Rons-Gone-Wrong.jpeg", 
+                       "img-3":"https://themillennials.life/wp-content/uploads/2021/09/The-Millennials-Life-Rons-Gone-Wrong-%E2%80%93-Tre-em-can-ban-khong-phai-robot-12.jpg"
                        },
-                "info":{"thoi-luong":"127 phút",
-                       "dao-dien":["Miguel Sapochnik"],
-                       "dien-vien":["Tom Hanks", "Caleb Landry Jones"],
+                "info":{"thoi-luong":"107 phút",
+                       "dao-dien":["Jean-Philippe Vine"],
+                       "dien-vien":["Bentley Kalu", "Ava Morse","Thomas Barbusca","Jack Dylan Grazer"],
                        "quoc-gia":["Mỹ"], 
-                       "the-loai":["Sinh tồn", "Phiêu lưu", "Giả tưởng"],
-                       "khoi-chieu":"05/11/2021"
+                       "the-loai":["Hoạt hình"],
+                       "khoi-chieu":"22/10/2021"
                        },
-                "description":"Finch (2021) là bộ phim mới nhất có sự tham gia của nam tài tử Tom Hanks với nội dung chính xoay quanh cuộc sống của một người già cô đọc lúc hậu tận thế. Phim được phát hành trên nền tảng Apple + và không được quảng bá rộng rãi nhưng với sức hút của Captain Phillips, Finch vẫn nhận được rất nhiều sự quan tâm và mong chờ của khán giả. Hãy cùng Ghiền review bộ phim này và xem thử phim có gì thú vị và hấp dẫn không các bạn nhé!",
-                "story":{"story-text-1":["Finch (2021) lấy bối cảnh trái đất sau khi hứng chịu thảm họa bão mặt trời gây ra hiện tượng thủng tầng Ozon và khiến nhiều loại sinh vật, trong đó có con người rơi vào vòng tiệt diệt. Finch là một trong những người hiếm hoi còn sống sót nhờ vào việc phát minh ra những món đồ công nghệ hữu dụng, giúp ông có thể sống sót qua qua ngày cùng với chú chó Goodyear của mình. Một này nọ, ông chế tạo ra chú robot Jeff với hy vọng nó sẽ thay ông chăm sóc chó cưng khi mình qua đời. Liệu rằng điều gì sẽ xảy đến với Finch và những người bạn này? Xem phim để có câu trả lời các bạn nha!"], 
-                     "story-text-2":["Thực sự nếu để ý thì bạn sẽ thấy Finch (2021) chỉ có một mình Tom Hanks diễn xuất trên nền phông xanh nhưng mọi thứ diễn ra trong phim lại có một sức hút khó cưỡng. Phim nhẹ nhàng, đáng yêu, hấp dẫn bằng sự chỉn chu trong kịch bản và sự chân thực trong diễn xuất. Dù nội dung không mới, ít cao trào, độ cảm động chưa thực sự cao nhưng nhìn chung phim vẫn mang đến cho chúng ta một khoảng thời gian giải trí nhẹ nhàng, thư giãn và có thêm những chiêm nghiệm về cuộc đời. Hãy cùng Ghiền review phân tích những điểm cộng và điểm trừ của phim nhé."]
+                "description":"Disney / 20th Century Studios đã phát hành trailer của bộ phim hoạt hình mới cho Ron’s Gone Wrong: Ron – Chú Robot Khác Biệt. Những hình ảnh trong đoạn phim giới thiệu, cũng như tương tác giữa cậu bé Barney và chú Robot kỳ lạ, ít nhiều sẽ khiến người hâm mộ gợi nhớ đến tác phẩm Big Hero 6, từng được yêu thích trước đây.",
+                "story":{"story-text-1":["Ron’s Gone Wrong: Ron – Chú Robot Khác Biệt lấy bối cảnh một tương lai mới, khi mà mạng xã hội đã được rô bốt hóa. Những đứa trẻ thay vì dính chặt vào điện thoại, để sử dụng các ứng dụng nổi tiếng Facebook, Instagram, TikTok,… thì họ sẽ kết nối thông qua những con robot đáng yêu được gọi là B-Bots. Mọi người dần phân tách thành hai nhóm đối tượng là những người sở hữu B-Bots và những người không có chúng."], 
+                     "story-text-2":["Nhân vật chính của Ron’s Gone Wrong: Ron – Chú Robot Khác Biệt là cậu bé Barney, nằm trong nhóm những người không có B-Bots, hơn nữa Barney lại là một nhóc mọt sách, hơi cô đơn và gặp khó khăn trong việc kết bạn. Cậu không muốn đưa mọi người về nhà vì cha anh ấy là một nhà phát minh lập dị và bà nội anh ấy là một người Bulgaria kỳ quặc. Khi nhận được món quà từ bố là một chú robot B-Bots tên Ron, Barney đã rất vui mừng.",
+                                     "Những tưởng Ron sẽ giúp Barney tiếp cận và có thêm nhiều bạn bè mới thì ngay sau đó, Barney nhận ra rằng ngoài việc biết đi, nói chuyện và có một số đặc tính cơ bản thì Ron gặp một số trục trặc, khiến B-Bots của cậu khác biệt so với những B-Bots của mọi người. Nhưng dù vậy thì với Barney, Ron vẫn là “Người bạn tốt nhất”. Và trong cuộc săn lùng các B-Bots bị lỗi, cả hai đã phải đối mặt với những rắc rối và thiết lập nên một tình bạn đặc biệt giữa người và máy trong Ron’s Gone Wrong."]
                     },
-                "trailer-youtube-iframe":'<iframe width="100%" height="315" src="https://www.youtube.com/embed/-0bYWnP3jH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                "positive":{"positive-text-1":["Không hiểu sao nội dung của Finch (2021) cứ na ná những phim hậu tận thế mà chúng ta đã từng xem nhưng phim không khiến người xem cảm thấy nhàm chán mà thay vào đó khán giả sẽ cảm thấy thích thú cũng như tò mò muốn biết nhiều hơn về cuộc đời, khả năng và kết cục của các nhân vật. Theo Ghiền review, Finch hấp dẫn nhờ vào kết cấu cốt truyện theo hướng hành trình kết hợp sinh tồn và trên chuyến đi đó, các nhân vật sẽ có nhiều kỷ niệm cũng như thấu hiểu nhau hơn. Mọi thứ trong phim vừa lạ nhưng cũng vừa quen, khiến người xem dần có cảm tình với các nhân vật từ lúc nào mà không hề một ai hay biết.",
-                                               "Kỹ xảo hình ảnh cũng là những điểm mà Finch (2021) làm rất tốt. Ghiền review cực kỳ ấn tượng với tạo hình của chú robot Jeff vì trông chú rất đơn giản, không màu mè, cầu kỳ, phức tạp nhưng lại khiến khán giả tin vào sự hiện diện cũng như cảm xúc của chú. Mặc dù đa phần cảnh quay đều được dàn dựng bằng máy tính nhưng độ chân thật của bối cảnh cực kỳ cao. Ngoài ra, phim có những góc quay rất đẹp, bố cục cân đối đầy dụng ý, mang đến những thước phim mãn nhãn, nghệ thuật và dạt dào cảm xúc."],
-                               "positive-text-2":["Diễn xuất của Tom Hanks chính là điểm sáng lớn nhất của Finch (2021). Ở phim này, chúng ta cảm thấy ông gầy gò hơn để phù hợp với vai một ông lão trong những ngày cuối đời. Lối diễn xuất chân thực, tự nhiên, dạt dào cảm xúc của Tom Hanks vẫn giữ vững phong độ thuyết phục người xem và lèo lái khán giả vượt qua gần 2 tiếng thời lượng phim mà không cảm thấy có chút nào nhàm chán và tẻ nhạt. Đồng hành cùng với ông trong bộ phim này chính là chú chó Goodyear và Jeff, dù đều không phải là con người nhưng ánh mắt, giọng nói, ngôn ngữ cơ thể của họ lại khiến khán giả cảm nhận nhiều hơn cả khi có âm thanh. Thực sự phần diễn xuất của Finch siêu tốt dù cảm xúc phim mang lại chưa thực sự thỏa mãn và vỡ òa lắm các bạn ạ.",
-                                                  "Thông điệp mà Finch (2021) không quá đao to búa lớn nhưng lại để lại nhiều thứ khiến người xem phải suy ngẫm. Theo đó, chúng ta nhận ra được sư diệt vong của con người không phải đến từ thiên nhiên mà đến từ sự tham lam, ích kỷ và độc ác của chính chúng ta. Phim cũng khuyên người xem hãy làm ngay những điều chúng ta mong muốn khi còn có thể, hãy tận hưởng cuộc sống và đừng để những nỗi sợ khiến chúng ta chùn bước. Ngoài ra bài học về sự tin tưởng, trung thành, tình cảm gia đình và tình bạn cũng được phim khắc họa nhẹ nhàng nhưng khá thấm thía sâu cay."]
+                "trailer-youtube-iframe":'<iframe width="100%" height="315" src="https://www.youtube.com/embed/wA1EMEZXSx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                "positive":{"positive-text-1":["Bộ phim rõ ràng là một sự ví von cho chứng nghiện tương tác trực tuyến của mọi người thông qua các ứng dụng và thiết bị hiện đại, như cách mà cha của Barney đã đề cập trong trailer. B-Bots có vẻ như là một cải tiến lớn so với điện thoại thông minh ngày nay. Tuy nhiên có vẻ như Ron’s Gone Wrong: Ron – Chú Robot Khác Biệt sẽ tập trung nhiều vào tầm quan trọng của các mối quan hệ xã hội và tình bạn. "],
+                               "positive-text-2":["Ron’s Gone Wrong rất phù hợp với cách mà trẻ em nhìn nhận bạn bè của chúng. Chúng muốn ai đó đồng ý với mình, muốn có ai đó chơi cùng trò chơi với mình… đó cũng là cách mà công nghệ hiện đại hướng đến. Và trong bộ phim của chúng tôi, Barney không thể làm điều này với Ron, một thiết bị rối loạn chức năng và bị lỗi, khi không tuân theo những gì mà Barney muốn và cũng không biết gì về chủ của mình và buộc cả hai phải xây dựng mối quan hệ này từ thời điểm đó."]
                                },
-                "negative":{"negative-text-1":["Thực sự rất khó để tìm ra nhiều điểm trừ trong Finch (2021) vì bộ phim này được làm rất chỉn chu và gọn gàng. Có chăng thì phim thiếu hụt những phân cảnh cao trào, kịch tính cùng với việc làm chưa tới nhiệm vụ lấy nước mắt của khán giả nên để lại một chút nuối tiếc trong lòng người xem. Còn nhiều thứ mà Finch (2021) vẫn chưa kịp để lý giải cho người xem, đồng thời chuyến hành trình của những nhân vật vẫn còn tiếp diễn nên khán giả chắc hẳn rất mong đợi phần tiếp theo của bộ phim này.", 
+                "negative":{"negative-text-1":["Thực sự rất khó để tìm ra nhiều điểm trừ trong phuim vì bộ phim này được làm rất chỉn chu và gọn gàng. Có chăng thì phim thiếu hụt những phân cảnh cao trào, kịch tính cùng với việc làm chưa tới nhiệm vụ lấy nước mắt của khán giả nên để lại một chút nuối tiếc trong lòng người xem. Còn nhiều thứ mà Finch (2021) vẫn chưa kịp để lý giải cho người xem, đồng thời chuyến hành trình của những nhân vật vẫn còn tiếp diễn nên khán giả chắc hẳn rất mong đợi phần tiếp theo của bộ phim này.", 
                                                "Một điểm trừ nhẹ khác của phim chính là phần âm thanh có phần hơi lạc nhịp ở một vài phân đoạn nên chưa đẩy được cảm xúc của người xem. Kỹ xảo của Finch (2021) dù rất tốt nhưng một vài phân đoạn nhìn vẫn chưa chân thật, sắc nét nên độ ép phê chưa thực sự cao. Dù sao đi nữa, phim vẫn rất tròn trịa và khiến người xem quên hết những lỗi nhỏ lặt vặt nêu trên."],
                                "negative-text-2":[]
                                },
-                "score":{"imdb":"7.0/10 (68.000 đánh giá)",
-                       "google":"89/100", 
-                       "rotten-tomatoes":"74/100",
-                       "nml-review":"7.0/10 (Ghiền)"
+                "score":{"imdb":"chưa đánh giá",
+                       "google":"chưa đánh giá", 
+                       "rotten-tomatoes":"chưa đánh giá",
+                       "nml-review":"8.0/10 (Ghiền)"
                        },
-                "conclusion":"Finch (2021) là một bộ phim khá thú vị và hấp dẫn với đề tài hậu tận thế. Phim nhẹ nhàng, đáng yêu, hơi buồn nhưng cũng khiến người xem cảm thấy trân quý hơn về cuộc sống hiện tại và những người bạn xung quanh mình. Nếu muốn tưới mát tâm hồn sau một ngày dài làm việc vất vả thì Finch sẽ là một lựa chọn cực kỳ hợp lý dành cho các bạn đấy.",
+                "conclusion":"Với dàn diễn viên lồng tiếng toàn sao, bao gồm Zach Galifianakis, Jack Dylan Grazer, Ed Helms, Justice Smith, Olivia Colman, Marcus Scribner,… Ron’s Gone Wrong: Ron – Chú Robot Khác Biệt dự kiến sẽ phát hành độc quyền tại các rạp trong 45 ngày, bắt đầu từ 22.10.2021, sau đó sẽ có mặt trên Disney +",
                 "article-author-info":["Minh Chuyên Đi Copy Đây :v",
                                        "Còn bạn, bạn đánh giá phim này như thế nào?"]
         },
