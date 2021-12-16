@@ -21,3 +21,6 @@ function updateFilmPage(id) {
     window.localStorage.setItem("film-id", id);
 }
 
+function updateTheLoaiPage(id) {
+    window.localStorage.setItem("the-loai-id", id);
+}

@@ -1,30 +1,53 @@
 $(document).ready(function () {
     
-    // displayTheLoaiPage("Hành động");
-    alert(theLoaiList["hang-dong"]["filmID"]);
     
+    
+    // console.log(theLoaiList["Hàng động"]["filmID"].length);
+
+
+    if (window.localStorage.getItem("the-loai-id") == undefined) {
+        $("#header-the-loai").append("<h1>Thể loại: " + "Hành động" + "</h1>");
+        displayTheLoaiPage("Hành động");
+    }
+    else {
+        $("#header-the-loai").append("<h1>Thể loại: " + window.localStorage.getItem("the-loai-id") + "</h1>");
+        displayTheLoaiPage(window.localStorage.getItem("the-loai-id"));
+    }
+
+
+    // alert(theLoaiList["Hàng động"]["filmID"][1]);
+
+
+    
+
 });
 
 function displayTheLoaiPage(id) {
 
-    $(".title-content").append("<h2> Thể loại: " + id + "</h2>");
+    var count = 0;
 
+    $(".phim-link").each(function() {
 
-    var dem = 0;
+        if (count < theLoaiList[id]["filmID"].length) {
+            $(this).attr("id", theLoaiList[id]["filmID"][count]);
+            // alert(theLoaiList["Hàng động"]["filmID"][count]);
 
-
-
-    $(".phim-link").each(function () {
-
-        if (dem < theLoaiList[id]["filmID"].length) {
-            alert("helo");
+            $("#" + this.id + " .image-cover > img").attr("src", filmList[this.id].images["img-main"]);
+            $("#" + this.id + " .box-text").append("<h3>" + filmList[this.id].title + "</h3>")
         }
-
-        dem++;
         
+        count++;
+
     });
 
-    for (let i = 0; i < theLoaiList[id]["filmID"].length; ++i) {
-        
-    }
+
+}
+
+
+function updateFilmPage(id) {
+    window.localStorage.setItem("film-id", id);
+}
+
+function updateTheLoaiPage(id) {
+    window.localStorage.setItem("the-loai-id", id);
 }
