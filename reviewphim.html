@@ -1,119 +1,413 @@
-[33mcommit 75658613fe7f991b767197927df324ea94d954fd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Wed Dec 15 10:48:45 2021 +0700
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NML Review Phim</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/custom_multislider.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Phan layout-->
 
-    chinh background cho phan sub nav
+    <!--Phan layout-->
 
-[33mcommit cb8548f22a84076f2ce3703d195bf8851fc92df4[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Wed Dec 15 10:27:11 2021 +0700
+</head>
+<body>
+    <div id="wrapper">
 
-    linh tinh
+        <header class="container" id="header">
+    
+            <!-- Navigation -->
+            <nav id="nav-bar" class="navbar navbar-expand-lg  navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="" width="80px">
+                    <h6>NML Review</h6>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                          <h5>TRANG CHỦ</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <h5>REVIEW PHIM</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 style="display: inline;">THỂ LOẠI</h5>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Phim Hành Động</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Tình Cảm</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Kinh Dị</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Tâm Lý</a></li>
+                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h5 style="display: inline;">TIN TỨC ĐIỆN ẢNH</h5>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Tin Tức</a></li>
+                          <li><a class="dropdown-item" href="#">Diễn Viên</a></li>
+                          <li><a class="dropdown-item" href="#">Đạo Diễn</a></li>
+                          <li><a class="dropdown-item" href="#">Lịch Chiếu Phim</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline btn-search" type="submit"><h5>Tìm Kiếm</h5></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <!-- Navigation -->
+            <!--Layout-->
+              <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-[33mcommit 3900e46d1983db2db81298951142cd5f934001c8[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Wed Dec 15 10:22:04 2021 +0700
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/film-main-images/Free-Guy.jpg" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/film-main-images/Free-Guy.jpg" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+            <!--Layout-->
 
-    them mau khi trang hien tai duoc mo
+    
+        </header>
+        <main class="container" id="main">
+            <div class="container">
+                <a class="row title-content" href="#">
+                  <h1 style="color: red; font-family: 'Courier New', Courier, monospace; text-align: center; font-size: 50px;">REVIEW PHIM</h1>
+                </a>
+      
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="test_trang_phim.html">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <div class="test">
+                              <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                            </div>
+                            
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Money-Heist-Season-5.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Review phim Money Heist season 5 phần 2: Kết hơi ảo nhưng cảm xúc</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Tick-Tick-Boom.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Review phim Tick Tick Boom: Đắm chìm vào vở nhạc kịch cuộc đời</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Venom-2.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <div class="test">
+                              <h3>Review phim Venom 2 – Đối mặt tử thù: Kỹ xảo che lấp kịch bản lười biếng</h3>
+                            </div>
+                            
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Finch-2021.jpeg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Review phim Finch (2021): Chuyến đi cuối đời sẽ như thế nào?</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/rone-gone-wrong.png" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Ron’s Gone Wrong: "Rụng tim" với tình bạn đáng yêu giữa người và robot</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Free-Guy.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <div class="test">
+                              <h3>Review phim Free Guy (2021): Xuất sắc và giải trí tuyệt vời</h3>
+                            </div>
+                            
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Bo-gia.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Review phim Bố già: Giọt nước mắt sau những trận cãi vã</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="box">
+                      <a class="box-link" href="#">
+                        <div class="box-image">
+                          <div class="image-cover">
+                            <img src="images/film-main-images/Tom-and-Jerry-2021.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="box-text">
+                            <h3>Review phim Tom & Jerry (2021): Kỷ niệm tuổi thơ đầy mới lạ</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+        </main>
+        <!-- Footer -->
+    <footer class="bg-dark text-center text-white container">
+        <!-- Grid container -->
+        <div class="container p-4">
+    
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Đăng ký để nhận tin tức mới</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" placeholder="Nhập email"/>
+                    <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+      
+          <!-- Section: Text -->
+          <section class="mb-4">
+            <p>
+              Em ăn cơm chưa?
+            </p>
+          </section>
+          <!-- Section: Text -->
+      
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
+                <h5 class="text-uppercase">Giới Thiệu</h5>
+      
+                <p>
+                    NML review là một website chủ yếu review phim.
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
+                <h5 class="text-uppercase">Liên Hệ</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <img src="images/Logo.png" alt="" width="100px">
+                  </li>
+                  <li>
+                    <p class="text-white">&phone;Hotline: 9999 999 999</p>
+                  </li>
+                  <li>
+                    <p class="text-white">Email: nmlreviewphim@gmail.com</p>
+                  </li>
+                  <li>
+                    <p class="text-white">Địa chỉ: Đại học Cần Thơ, Việt Nam.</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+    
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+      
+          
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright
+          
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
 
-[33mcommit 0d50321b632dd5da46c8843e4dd8de5d7f7a712f[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 21:36:18 2021 +0700
+  <!-- Include Multislider -->
+  <script src="js/multislider.min.js"></script>
 
-    Cap nhat link review phim dune tren trang chu
+  <!-- Initialize element with Multislider -->
+  <script src="js/script.js"></script>
 
-[33mcommit 0fb673cdb1bc5e143bafd8d3522c67afac29a791[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 21:32:23 2021 +0700
-
-    Them trang test_trang_phim.html
-
-[33mcommit 22c4011e350f4cd3be721980e21b69cfebb6ba9d[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 20:06:52 2021 +0700
-
-    change nav color
-
-[33mcommit e1cee963390b2e1141d72cbe95ed380e3f4b5128[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 20:01:53 2021 +0700
-
-    chang background color
-
-[33mcommit 333834b3b902517b98e4cdb13f82140e70c6609a[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 19:52:47 2021 +0700
-
-    them hieu ung tam cho tin tuc
-
-[33mcommit d3f24261e5536b5b7b23ddff05bf7ce6b1f489d5[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 19:15:40 2021 +0700
-
-    sua lai effect animation
-
-[33mcommit cdcd25dc23e2ba82949f2176ded753a61e13f15e[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 17:28:16 2021 +0700
-
-    sua hieu ung cho box-img trong box
-
-[33mcommit a84781b183245aacc84a1eb63f4ff182120a4343[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 16:23:44 2021 +0700
-
-    them phim moi vao review phim
-
-[33mcommit 397bcdc8ed4be0690342eaccfe24b3e6f90fb207[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 16:02:35 2021 +0700
-
-    them hieu ung cho cac box film
-
-[33mcommit 4b135a40fa323dc2ced58ab06df9849c03744349[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Tue Dec 14 13:45:55 2021 +0700
-
-    xoa di cac file bootstrap ko dung
-
-[33mcommit 943aa1749c2a4eeaac65bef14a0d6be9099045fa[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 20:23:15 2021 +0700
-
-    delete title
-
-[33mcommit c695519fb9bc67c2c80053295ef6f6ff1aa4ae8f[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 19:38:08 2021 +0700
-
-    no comment
-
-[33mcommit 655b44f280d15db18bab0c2a7820de410ab3ef78[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 19:22:01 2021 +0700
-
-    add additional content to index.html
-
-[33mcommit 61e077de444000878940d0a0ccd7da16af111507[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 18:33:21 2021 +0700
-
-    add content to index.html
-
-[33mcommit 441a388363af150be4fa253366fd970e98eaa825[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 17:05:57 2021 +0700
-
-    add multi slider to Home page
-
-[33mcommit 46fb7910fd8d5a848694d5c0093e22371001790f[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 09:54:26 2021 +0700
-
-    add index.html and js, css, images folder
-
-[33mcommit 269ec061eb92ce842ca36da39e8e4706fa653b49[m
-Author: Haxu <nguyenngocminh190901@gmail.com>
-Date:   Mon Dec 6 08:07:56 2021 +0700
-
-    add index.html
+</body>
+</html>
