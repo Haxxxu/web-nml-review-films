@@ -217,7 +217,7 @@ var filmList =
                        "img-3":"https://themillennials.life/wp-content/uploads/2021/09/The-Millennials-Life-Rons-Gone-Wrong-%E2%80%93-Tre-em-can-ban-khong-phai-robot-12.jpg"
                        },
                 "info":{"thoi-luong":"107 phút",
-                       "dao-dien":["Jean-Philippe Vine"],
+                       "dao-dien":["Jean-Philippe Vine","Sarah Smith"],
                        "dien-vien":["Bentley Kalu", "Ava Morse","Thomas Barbusca","Jack Dylan Grazer"],
                        "quoc-gia":["Mỹ"], 
                        "the-loai":["Hoạt hình"],
