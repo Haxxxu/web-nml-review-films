@@ -168,7 +168,7 @@ var filmList =
                 {
                 "names":["Finch (2021)"],
                 "title":"Review phim Finch (2021): Chuyến đi cuối đời sẽ như thế nào?",
-                "images":{"img-main":"images/film-main-images/Finch-2021.jpg",
+                "images":{"img-main":"images/film-main-images/Finch-2021.jpeg",
                        "img-poster":"images/film-poster-images/finch_2021_poster.jpg",
                        "img-danh-gia":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-min-1536x917.jpg", 
                        "img-1":"https://ghienreview.com/wp-content/uploads/2021/11/Ghien-review-Finch-2021-01-min.jpg", 
