@@ -12,6 +12,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/film-list.js"></script>
+    <script src="js/dao-dien-list.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -36,7 +37,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="reviewphim.html">
                           <h5>REVIEW PHIM</h5>
                         </a>
                       </li>
@@ -78,61 +79,50 @@
         </header>
         <main class="container" id="main">
     
-    
             <div class="container">
 
-              <div class="title-content title-info">
-                <h1>THÔNG TIN ĐẠO DIỄN</h1>
-              </div>
-
-                <div class="row">
-                    <div class="col-sm col-lg-4">
-                        <div id="img-dao-dien">
-                            <img src="images/dao-dien-images/Denis_Villeneuve_2018.jpg" alt="">
-                            <div class="text">
-                              <h4>Denis Villeneuve</h4>
-                              <h5>Ngày sinh: 3/10/1967</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm col-lg-8">
-                      <div id="info-dao-dien">
-                        <p>
-                          Denis Villeneuve OC CQ (tiếng Pháp: [dəni vilnœv]; sinh ngày 3 tháng 10 năm 1967) là một đạo diễn, biên kịch và nhà sản xuất điện ảnh người Canada gốc Pháp. Ông là chủ nhân của 4 giải màn bạc Canada (tiền thân là giải Genie) cho Đạo diễn xuất sắc nhất, lần lượt với các tác phẩm Maelström năm 2001, Polytechnique năm 2009, Incendies năm 2011 và Enemy năm 2013. Ba trong số những tác phẩm kể trên cũng giành giải màn bạc Canada cho phim hay nhất, trong khi Enemy được Hiệp hội phê bình phim Toronto trao giải cho phim điện ảnh Canada xuất sắc nhất năm.
-                        </p>
-                        <p>
-                          Trên thị trường quốc tế, ông nổi tiếng nhờ chỉ đạo những tác phẩm được đánh giá cao về mặt chuyên môn, như hai phim giật gân Lần theo dấu vết (2013) và Ranh giới (2015) cũng như hai bộ phim khoa học viễn tưởng Cuộc đổ bộ bí ẩn (2016) và Tội phạm nhân bản 2049 (2017). Nhờ tác phẩm Cuộc đổ bộ bí ẩn, ông đã giành được một đề cử Oscar cho đạo diễn xuất sắc nhất. Tháng 12 năm 2019, ông còn được Hiệp hội phê bình Hollywood trao giải Nhà làm phim của thập kỷ.
-                        </p>
-                      </div>
-                    </div>
+              <div class="row">
+                <div class="title-content title-info">
+                  <h1>ĐẠO DIỄN</h1>
                 </div>
+              </div>
+               
             </div>
     
             <!-- Review Phim -->
             <div class="container">
-              <a class="row title-content" href="#">
-                <h1>Phim Của Denis Villeneuve</h1>
-              </a>
     
               <div class="row">
                 <div class="col-sm">
                   <div class="box">
-                    <a id="Dune" class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
-                      <div class="box-image">
-                        <div class="image-cover">
+                    <a id = "Álex Pina" class="dao-dien-link" href="dao_dien_info.html" onclick="updateDaoDienPage(this.id);"> 
+                      <div class="dao-dien-image">
+                        <div class="dao-dien-image-cover">
                           <img src="" alt="">
                         </div>
                       </div>
-                      <div class="box-text">
+                      <div class="dao-dien-text">
                           
                       </div>
                     </a>
                   </div>
                 </div>
+
                 <div class="col-sm">
-                  
+                  <div class="box">
+                    <a id = "Denis Villeneuve" class="dao-dien-link" href="dao_dien_info.html" onclick="updateDaoDienPage(this.id);"> 
+                      <div class="dao-dien-image">
+                        <div class="dao-dien-image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="dao-dien-text">
+                          
+                      </div>
+                    </a>
+                  </div>
                 </div>
+
                 <div class="col-sm">
                   
                 </div>
@@ -301,8 +291,11 @@
     function updateFilmPage(id) {
       window.localStorage.setItem("filmPageID", id);
     }
+
   </script>
 
+  
+  <script src="js/script-phim.js"></script>
   <script src="js/script-dao-dien.js"></script>
   <script src="js/script.js"></script>
 </body>
