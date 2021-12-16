@@ -249,8 +249,8 @@ var filmList =
                 {
                 "names":["Free Guy (2021)"],
                 "title":"Review phim Free Guy (2021): Xuất sắc và giải trí tuyệt vời",
-                "images":{"img-main":"images/film-main-images/Free_Guy.jpg",
-                       "img-poster":"images/film-poster-images/Free_Guy_Poster.jpg",
+                "images":{"img-main":"images/film-main-images/Free-Guy.jpg",
+                       "img-poster":"images/film-poster-images/Free_Guy_2021_Poster.jpg",
                        "img-danh-gia":"https://ghienreview.com/wp-content/uploads/2021/09/daa372fbee40181e4151-min-1536x942.jpg", 
                        "img-1":"https://ghienreview.com/wp-content/uploads/2021/09/Ghie-review-Free-Guy-04-min.jpg", 
                        "img-2":"https://ghienreview.com/wp-content/uploads/2021/09/Ghie-review-Free-Guy-03-min-1536x643.jpg", 
