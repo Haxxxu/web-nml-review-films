@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tin Tức Điện Ảnh</title>
+    <title>NML Review Phim</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/custom_multislider.css">
-    <link rel="stylesheet" href="css/tin-tuc.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-
-
-    <!--Phan layout-->
-
-    <!--Phan layout-->
-
+    <script src="js/film-list.js"></script>
+    <script src="js/the-loai-list.js"></script>
+    <script src="js/dao-dien-list.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -43,7 +37,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="reviewphim.html">
                           <h5>REVIEW PHIM</h5>
                         </a>
                       </li>
@@ -81,50 +75,167 @@
                 </div>
               </nav>
             <!-- Navigation -->
-
     
         </header>
         <main class="container" id="main">
+    
+            
+    
+    
+            
+    
+    
+            <!-- Review Phim -->
             <div class="container">
-
-              
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
-                  <div class="col-4">
-                    <img style="width: 100%;" src="images/tin-tuc-images/Money-heist/avt.jpg">
+              <a id="header-the-loai" class="row title-content">
+                
+              </a>
+    
+              <div class="row">
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
                   </div>
-                  <div class="col-8">
-                    <h3>Money Heist phần cuối hay xuất sắc, netizen Việt đang phát cuồng vì sự gay cấn và khó đoán: "Cái kết đỉnh cao và trọn vẹn nhất!"</h3>
-                  </div> 
-                </a>                          
-
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
-                  <div class="col-sm col-lg-4">
-                    <img style="width: 100%;" src="images/tin-tuc-images/venom/avt.jpg">
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
                   </div>
-                  <div class="col-8">
-                    <h3>Chẳng phải Shang-Chi, bom tấn Venom 2 mới là phim Marvel thành công nhất năm nay!</h3>
-                  </div> 
-                </a>
-
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
-                  <div class="col-4">
-                    <img style="width: 100%;" src="images/tin-tuc-images/spiderman/avt.jfif">
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
                   </div>
-                  <div class="col-8">
-                    <h3>Spider-man - No Way Home: Phim về Người Nhện hay nhất lịch sử</h3>
-                  </div> 
-                </a>
+                </div>
+              </div>
 
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
-                  <div class="col-4">
-                    <img style="width: 100%;" src="images/tin-tuc-images/matnacanhtinh/avt.jpg">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
                   </div>
-                  <div class="col-8">
-                    <h3>Mặt Nạ Gương: Cảnh tình cảm của Tùng - Hoa nhàm chán, rập khuôn</h3>
-                  </div> 
-                </a>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-        </div> 
+              <div class="row">
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <a class="box-link phim-link" onclick="updateFilmPage(this.id);" href="phim.html">
+                      <div class="box-image">
+                        <div class="image-cover">
+                          <img src="" alt="">
+                        </div>
+                      </div>
+                      <div class="box-text">
+                          
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+
+            </div>
+            <!-- Review Phim -->
+    
+    
+            
+            
+    
+            
+    
         </main>
         <!-- Footer -->
     <footer class="bg-dark text-center text-white container">
@@ -292,18 +403,14 @@
       </div>
 
     </div>
-
-<<<<<<< HEAD
-=======
     <script src="js/script-subscribe-email.js"></script>
 
-  <!-- Include Multislider -->
-  <script src="js/multislider.min.js"></script>
-  <script>function updateFilmPage(id) {
-    window.localStorage.setItem("filmPageID", id);
-  }</script>
->>>>>>> d7b06f7f7926385d40c89fe736c3df6b67991765
 
-
+  <!-- Phần load động cho trang web -->
+  
+  <script src="js/script-the-loai.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  
+  
 </body>
 </html>

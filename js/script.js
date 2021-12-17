@@ -12,6 +12,7 @@ $(document).ready(function () {
     $(".phim-link").each(function() {
         $("#" + this.id + " .image-cover > img").attr("src", filmList[this.id].images["img-main"]);
         $("#" + this.id + " .box-text").append("<h3>" + filmList[this.id].title + "</h3>")
+        
     })
     
 });
@@ -20,3 +21,6 @@ function updateFilmPage(id) {
     window.localStorage.setItem("film-id", id);
 }
 
+function updateTheLoaiPage(id) {
+    window.localStorage.setItem("the-loai-id", id);
+}

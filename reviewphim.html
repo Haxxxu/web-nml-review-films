@@ -55,12 +55,12 @@
                           <h5 style="display: inline;">THỂ LOẠI</h5>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Phim Hành Động</a></li>
-                          <li><a class="dropdown-item" href="#">Phim Tình Cảm</a></li>
-                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
-                          <li><a class="dropdown-item" href="#">Phim Kinh Dị</a></li>
-                          <li><a class="dropdown-item" href="#">Phim Tâm Lý</a></li>
-                          <li><a class="dropdown-item" href="#">Phim Hài Hước</a></li>
+                          <li><a id="Hành động" onclick="updateTheLoaiPage(this.id);" class="dropdown-item" href="the_loai.html">Phim Hành Động</a></li>
+                          <li><a id="Tình cảm" onclick="updateTheLoaiPage(this.id);" class="dropdown-item" href="the_loai.html">Phim Tình Cảm</a></li>
+                          <li><a id="Hài hước" onclick="updateTheLoaiPage(this.id);" class="dropdown-item" href="the_loai.html">Phim Hài Hước</a></li>
+                          <li><a id="Kinh dị" onclick="updateTheLoaiPage(this.id);" class="dropdown-item" href="the_loai.html">Phim Kinh Dị</a></li>
+                          <li><a id="Tâm lý" onclick="updateTheLoaiPage(this.id);"  class="dropdown-item" href="the_loai.html">Phim Tâm Lý</a></li>
+                          <li><a id="Hoạt hình" onclick="updateTheLoaiPage(this.id);"  class="dropdown-item" href="the_loai.html">Phim Hoạt Hình</a></li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
@@ -303,8 +303,8 @@
                 <div class="col-md-5 col-12">
                   <!-- Email input -->
                   <div class="form-outline form-white mb-4">
-                    <input type="email" id="form5Example21" class="form-control" placeholder="Nhập email"/>
-                    <label class="form-label" for="form5Example21">Email address</label>
+                    <input type="email" id="email-subscribe" class="form-control" placeholder="Nhập email"/>
+                    <label class="form-label" for="email-subscribe">Email address</label>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -312,7 +312,7 @@
                 <!--Grid column-->
                 <div class="col-auto">
                   <!-- Submit button -->
-                  <button type="submit" class="btn btn-outline-light mb-4">
+                  <button onclick="emailSubscribe();" type="button" class="btn btn-outline-light mb-4" data-bs-toggle="modal" data-bs-target="#subscribeModal">
                     Subscribe
                   </button>
                 </div>
@@ -417,7 +417,37 @@
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
+
+      <!-- button to top -->
+      <div id="toTop">
+        <i class="fas fa-chevron-up"></i>
+        
+      </div>
+      <script>
+        $('#toTop').on("click",function() {
+          $('html, body').animate({ scrollTop: 0 }, 'low', function () {
+              
+          });
+        });
+      </script>
+      <!-- button to top -->
+
+      <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-light">
+              <h5 class="modal-title" id="exampleModalLabel"><span id="MODAL_HEAD">Đăng ký</span></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-light">
+              <p id="MODAL_CONTENT"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <script src="js/script-subscribe-email.js"></script>
 
   <!-- Include Multislider -->
   <script src="js/multislider.min.js"></script>
