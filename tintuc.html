@@ -88,7 +88,7 @@
             <div class="container">
 
               
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
+                <a id="tin-01" href="chitiet.html" class="row text_form" onclick="updateChiTietPage(this.id);">
                   <div class="col-4">
                     <img style="width: 100%;" src="images/tin-tuc-images/Money-heist/avt.jpg">
                   </div>
@@ -97,7 +97,7 @@
                   </div> 
                 </a>                          
 
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
+                <a id="tin-02" href="chitiet.html" class="row text_form" onclick="updateChiTietPage(this.id);">
                   <div class="col-sm col-lg-4">
                     <img style="width: 100%;" src="images/tin-tuc-images/venom/avt.jpg">
                   </div>
@@ -106,7 +106,7 @@
                   </div> 
                 </a>
 
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
+                <a id="tin-03" href="chitiet.html" class="row text_form" onclick="updateChiTietPage(this.id);">
                   <div class="col-4">
                     <img style="width: 100%;" src="images/tin-tuc-images/spiderman/avt.jfif">
                   </div>
@@ -115,7 +115,7 @@
                   </div> 
                 </a>
 
-                <a id="tin-tuc-01" href="chitiet.html" class="row text_form">
+                <a id="tin-04" href="chitiet.html" class="row text_form" onclick="updateChiTietPage(this.id);">
                   <div class="col-4">
                     <img style="width: 100%;" src="images/tin-tuc-images/matnacanhtinh/avt.jpg">
                   </div>
@@ -293,17 +293,16 @@
 
     </div>
 
-<<<<<<< HEAD
-=======
     <script src="js/script-subscribe-email.js"></script>
 
   <!-- Include Multislider -->
   <script src="js/multislider.min.js"></script>
-  <script>function updateFilmPage(id) {
-    window.localStorage.setItem("filmPageID", id);
-  }</script>
->>>>>>> d7b06f7f7926385d40c89fe736c3df6b67991765
-
+  <script>
+    function updateFilmPage(id) {
+      window.localStorage.setItem("filmPageID", id);
+    }
+  </script>
+  <script src="js/tin-tuc.js"></script>
 
 </body>
 </html>

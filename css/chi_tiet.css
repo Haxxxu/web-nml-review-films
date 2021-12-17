@@ -1,0 +1,20 @@
+.img-content > img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.doan-tin {
+    font-size: 20px;
+}
+
+#content {
+    color: #ABB7C4;
+}
+
+#img-03 img {
+    margin: 10px 0;
+}
+
+#title-name {
+    margin: 50px 0 60px;
+}
