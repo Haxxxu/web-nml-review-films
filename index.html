@@ -767,9 +767,20 @@
       </footer>
       <!-- Footer -->
 
+      <!-- button to top -->
       <div id="toTop">
-        <i class="fas fa-caret-square-up"></i>
+        <i class="fas fa-chevron-up"></i>
+        
       </div>
+      <script>
+        $('#toTop').on("click",function() {
+          $('html, body').animate({ scrollTop: 0 }, 'low', function () {
+              
+          });
+        });
+      </script>
+      <!-- button to top -->
+
 
     </div>
 

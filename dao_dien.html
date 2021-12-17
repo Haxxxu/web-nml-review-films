@@ -383,6 +383,20 @@
       <!-- Footer -->
     </div>
 
+    <!-- button to top -->
+    <div id="toTop">
+      <i class="fas fa-chevron-up"></i>
+      
+    </div>
+    <script>
+      $('#toTop').on("click",function() {
+        $('html, body').animate({ scrollTop: 0 }, 'low', function () {
+            
+        });
+      });
+    </script>
+    <!-- button to top -->
+
   <!-- Include Multislider -->
   <script src="js/multislider.min.js"></script>
 
