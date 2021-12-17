@@ -254,3 +254,8 @@ form .btn-search {
 #toTop:hover {
     opacity: 0.5;
 }
+
+.error404 {
+    margin: 50px 0;
+    color: #ABB7C4;
+}

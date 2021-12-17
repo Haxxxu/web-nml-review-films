@@ -12,6 +12,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/film-list.js"></script>
+    <script src="js/tin-tuc-list.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -185,7 +186,7 @@
     
             <!-- Phim Mới -->
             <div class="container">
-              <a class="row title-content" href="#">
+              <a class="row title-content" href="reviewphim.html">
                 <h1>PHIM MỚI <i class="fas fa-angle-double-right"></i></h1>
               </a>
             
@@ -448,7 +449,7 @@
             <div class="container">
     
               <!-- Tin tức có ảnh -->
-              <a class="row title-content" href="#">
+              <a class="row title-content" href="tintuc.html">
                 <h1>TIN TỨC ĐIỆN ẢNH <i class="fas fa-angle-double-right"></i></h1>
               </a>
     
@@ -460,15 +461,15 @@
                   <div class="row">
                     <div class="col-sm">
                       <div class="box">
-                        <a class="box-link" href="#">
+                        <a class="box-link" id="tin-01" href="chitiet.html" onclick="updateChiTietPage(this.id);">
                           <div class="box-image">
                             <div class="image-cover">
-                              <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                              <img src="images/tin-tuc-images/Money-heist/Money-h.jpg" alt="">
                             </div>
                           </div>
                           <div class="box-text">
                               <div class="test">
-                                <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                                <h3>Money Heist phần cuối hay xuất sắc, netizen Việt đang phát cuồng vì sự gay cấn và khó đoán: "Cái kết đỉnh cao và trọn vẹn nhất!</h3>
                               </div>
                               
                           </div>
@@ -477,15 +478,15 @@
                     </div>
                     <div class="col-sm">
                       <div class="box">
-                        <a class="box-link" href="#">
+                        <a class="box-link" id="tin-02" href="chitiet.html" onclick="updateChiTietPage(this.id);">
                           <div class="box-image">
                             <div class="image-cover">
-                              <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                              <img src="images/tin-tuc-images/venom/img1.jpg" alt="">
                             </div>
                           </div>
                           <div class="box-text">
                               <div class="test">
-                                <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                                <h3>Chẳng phải Shang-Chi, bom tấn Venom 2 mới là phim Marvel thành công nhất năm nay!</h3>
                               </div>
                               
                           </div>
@@ -497,15 +498,15 @@
                   <div class="row">
                     <div class="col-sm">
                       <div class="box">
-                        <a class="box-link" href="#">
+                        <a class="box-link" id="tin-03" href="chitiet.html" onclick="updateChiTietPage(this.id);">
                           <div class="box-image">
                             <div class="image-cover">
-                              <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                              <img src="images/tin-tuc-images/spiderman/img1.jpg" alt="">
                             </div>
                           </div>
                           <div class="box-text">
                               <div class="test">
-                                <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                                <h3>Spider-man - No Way Home: Phim về Người Nhện hay nhất lịch sử</h3>
                               </div>
                               
                           </div>
@@ -514,15 +515,15 @@
                     </div>
                     <div class="col-sm">
                       <div class="box">
-                        <a class="box-link" href="#">
+                        <a class="box-link" id="tin-04" href="chitiet.html" onclick="updateChiTietPage(this.id);">
                           <div class="box-image">
                             <div class="image-cover">
-                              <img src="images/film-main-images/Dune-2021-xu-cat-.jpeg" alt="">
+                              <img src="images/tin-tuc-images/matnacanhtinh/img1.jpg" alt="">
                             </div>
                           </div>
                           <div class="box-text">
                               <div class="test">
-                                <h3>Review phim Dune (2021): Mới lạ nhưng chỉ mới là bắt đầu</h3>
+                                <h3>Mặt Nạ Gương: Cảnh tình cảm của Tùng - Hoa nhàm chán, rập khuôn</h3>
                               </div>
                               
                           </div>
@@ -818,6 +819,7 @@
   <!-- Phần load động cho trang web -->
 
   <script src="js/script.js"></script>
+  <script src="js/tin-tuc.js"></script>
   
 </body>
 </html>

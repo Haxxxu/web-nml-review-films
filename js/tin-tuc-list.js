@@ -36,3 +36,5 @@ var tintucList={
         "img-03":["images/tin-tuc-images/matnacanhtinh/img3.jpg"]
     }
 }
+
+
