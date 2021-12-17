@@ -1,5 +1,7 @@
+
 window.localStorage.setItem("count_email", 0);
 var emails = [];
+
 
 function emailSubscribe() {
     let email = $("#email-subscribe").val();
