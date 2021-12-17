@@ -1,9 +1,6 @@
 $(document).ready(function(){
-    
+    showtintuc(window.localStorage.getItem("tin-tuc-id"));
 });
-
-function updateChiTietPage(id) {
-    window.localStorage.setItem("tin-tuc-id", id);
-}
-
-
+function showtintuc(id){
+    $("name").append(tintucList[id].name);
+};
