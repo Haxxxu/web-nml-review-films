@@ -96,7 +96,7 @@ var filmList =
                        "dao-dien":["Lin-Manuel Miranda"],
                        "dien-vien":["Andrew Garfield", "Vanessa Hudgens", "Alexandra Shipp"],
                        "quoc-gia":["Mỹ"], 
-                       "the-loai":["Âm nhạc", "Lịch sử", "Chính kịch"],
+                       "the-loai":["Âm nhạc", "Lịch sử", "Chính kịch", "Tâm lý"],
                        "khoi-chieu":"16/11/2021"
                        },
                 "description":"Tick Tick Boom có lẽ là một bộ phim ca nhạc khá đặc biệt của năm 2021 khi không được nhiều người biết đến dù nội dung của phim thực sự rất hấp dẫn với đa dạng thông điệp ý nghĩa. Thể loại nhạc kịch có vẻ hơi xa lạ với khán giả Việt Nam nhưng bộ phim này đã giúp mọi thứ trở nên gần gũi, dễ nghe, dễ cảm và đặc biệt mở mang nhiều thứ mới mẻ cho người xem. Hãy cùng Ghiền review phim Tick Tick Boom để chuẩn bị tâm lý và sự hào hứng trước khi thưởng thức tác phẩm truyền động lực thú vị này nhé!",
@@ -179,7 +179,7 @@ var filmList =
                        "dao-dien":["Miguel Sapochnik"],
                        "dien-vien":["Tom Hanks", "Caleb Landry Jones"],
                        "quoc-gia":["Mỹ"], 
-                       "the-loai":["Sinh tồn", "Phiêu lưu", "Giả tưởng"],
+                       "the-loai":["Sinh tồn", "Phiêu lưu", "Giả tưởng","Tâm lý"],
                        "khoi-chieu":"05/11/2021"
                        },
                 "description":"Finch (2021) là bộ phim mới nhất có sự tham gia của nam tài tử Tom Hanks với nội dung chính xoay quanh cuộc sống của một người già cô đọc lúc hậu tận thế. Phim được phát hành trên nền tảng Apple + và không được quảng bá rộng rãi nhưng với sức hút của Captain Phillips, Finch vẫn nhận được rất nhiều sự quan tâm và mong chờ của khán giả. Hãy cùng Ghiền review bộ phim này và xem thử phim có gì thú vị và hấp dẫn không các bạn nhé!",
