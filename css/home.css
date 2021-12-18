@@ -259,3 +259,7 @@ form .btn-search {
     margin: 50px 0;
     color: #ABB7C4;
 }
+
+html {
+    font-family: arial, helvetica, sans-serif;
+}
